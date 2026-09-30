@@ -1,0 +1,20 @@
+# Личные данные: архив почты и всё, что из него получено
+data/
+state/
+*.mbox
+*.db
+*.db-wal
+*.db-shm
+vanish-report-*.csv
+vanish-progress-*.json
+
+# Окружение и сборка
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+web/node_modules/
+web/*.tsbuildinfo
+
+# Личные служебные скрипты (публикация и т.п.)
+private/

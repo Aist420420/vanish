@@ -1,0 +1,118 @@
+{
+  "_comment": "Категория сервиса по корневому домену. Поддомены и алиасы (resources/domain_aliases.json) сводятся к корневому домену. Порядок внутри списков не важен.",
+  "finance": [
+    "sberbank.ru", "sberbank.com", "sber.ru", "tinkoff.ru", "tbank.ru", "alfabank.ru", "vtb.ru", "raiffeisen.ru",
+    "gazprombank.ru", "open.ru", "sovcombank.ru", "pochtabank.ru", "rshb.ru", "psbank.ru", "mkb.ru", "rosbank.ru",
+    "homecredit.ru", "otpbank.ru", "uralsib.ru", "akbars.ru", "bspb.ru", "domrf.ru", "rencredit.ru", "mtsbank.ru",
+    "ozonbank.ru", "wb-bank.ru", "qiwi.com", "yoomoney.ru", "webmoney.ru", "cloudpayments.ru", "robokassa.ru",
+    "banki.ru", "sravni.ru", "finam.ru", "bcs.ru", "moex.com", "nalog-invest.ru",
+    "paypal.com", "stripe.com", "wise.com", "transferwise.com", "revolut.com", "payoneer.com", "skrill.com",
+    "neteller.com", "n26.com", "monzo.com", "klarna.com", "afterpay.com", "venmo.com", "cash.app", "zelle.com",
+    "chase.com", "bankofamerica.com", "wellsfargo.com", "citi.com", "capitalone.com", "americanexpress.com",
+    "discover.com", "hsbc.com", "barclays.co.uk", "santander.com", "ing.com", "interactivebrokers.com",
+    "robinhood.com", "etoro.com", "tradingview.com", "binance.com", "coinbase.com", "kraken.com", "bybit.com",
+    "okx.com", "kucoin.com", "blockchain.com", "crypto.com", "bitfinex.com", "exmo.com", "garantex.io",
+    "privatbank.ua", "monobank.ua", "kaspi.kz", "halykbank.kz", "priorbank.by"
+  ],
+  "shop": [
+    "ozon.ru", "wildberries.ru", "avito.ru", "youla.ru", "aliexpress.com", "joom.com", "temu.com", "shein.com",
+    "dns-shop.ru", "mvideo.ru", "eldorado.ru", "citilink.ru", "megamarket.ru", "sbermegamarket.ru", "kazanexpress.ru",
+    "lamoda.ru", "letu.ru", "goldapple.ru", "sportmaster.ru", "detmir.ru", "leroymerlin.ru", "lemanapro.ru",
+    "hoff.ru", "obi.ru", "petrovich.ru", "vseinstrumenti.ru", "220-volt.ru", "technopark.ru", "re-store.ru",
+    "svyaznoy.ru", "biggeek.ru", "labirint.ru", "chitai-gorod.ru", "litres.ru", "book24.ru", "ozon.travel",
+    "lenta.com", "perekrestok.ru", "vkusvill.ru", "auchan.ru", "magnit.ru", "5ka.ru", "x5.ru", "metro-cc.ru",
+    "okeydostavka.ru", "utkonos.ru", "globus.ru", "zolotoe-yabloko.ru", "rivegauche.ru", "ormatek.com",
+    "cian.ru", "auto.ru", "drom.ru", "farpost.ru", "domclick.ru",
+    "amazon.com", "amazon.co.uk", "amazon.de", "amazon.fr", "amazon.it", "amazon.es", "amazon.pl", "ebay.com",
+    "etsy.com", "walmart.com", "target.com", "bestbuy.com", "costco.com", "ikea.com", "hm.com", "zara.com",
+    "uniqlo.com", "asos.com", "zalando.com", "farfetch.com", "nike.com", "adidas.com", "iherb.com",
+    "banggood.com", "gearbest.com", "wish.com", "alibaba.com", "allegro.pl", "rozetka.com.ua", "prom.ua",
+    "olx.ua", "olx.pl", "olx.kz", "kufar.by", "epicentrk.ua", "foxtrot.com.ua", "comfy.ua", "store.steampowered.com"
+  ],
+  "delivery": [
+    "cdek.ru", "boxberry.ru", "pochta.ru", "russianpost.ru", "dpd.ru", "pecom.ru", "dellin.ru", "shiptor.ru",
+    "pickpoint.ru", "5post.ru", "dostavista.ru", "delivery-club.ru", "samokat.ru", "sbermarket.ru", "kuper.ru",
+    "dodopizza.ru", "dominos.ru", "papajohns.ru", "tanuki.ru", "yakitoriya.ru", "chibbis.ru", "vprok.ru",
+    "novaposhta.ua", "ukrposhta.ua", "meest.com", "justin.ua", "belpost.by", "kazpost.kz",
+    "ups.com", "fedex.com", "dhl.com", "dhl.de", "usps.com", "royalmail.com", "hermesworld.com", "dpd.com",
+    "gls-group.eu", "17track.net", "aftership.com", "doordash.com", "ubereats.com", "grubhub.com", "deliveroo.co.uk",
+    "glovoapp.com", "wolt.com", "instacart.com", "just-eat.co.uk", "justeat.com", "foodpanda.com", "postmates.com",
+    "gorillas.io", "getir.com"
+  ],
+  "taxi": [
+    "uber.com", "lyft.com", "bolt.eu", "gett.com", "citymobil.ru", "taximaxim.ru", "indrive.com", "indriver.com",
+    "didiglobal.com", "blablacar.com", "blablacar.ru", "delimobil.ru", "belkacar.ru", "yandex.taxi", "cabify.com",
+    "grab.com", "careem.com", "freenow.com", "wheely.com", "uklon.com.ua"
+  ],
+  "tickets": [
+    "aviasales.ru", "aviasales.com", "tutu.ru", "rzd.ru", "aeroflot.ru", "s7.ru", "pobeda.aero", "utair.ru",
+    "uralairlines.ru", "rossiya-airlines.com", "azimuth.ru", "nordwindairlines.ru", "flyredwings.com",
+    "ostrovok.ru", "101hotels.com", "sutochno.ru", "level.travel", "travelata.ru", "onetwotrip.com",
+    "kassir.ru", "ticketland.ru", "afisha.ru", "parter.ru", "radario.ru", "timepad.ru", "qtickets.ru",
+    "kinoteatr.ru", "karofilm.ru", "kinomax.ru", "cinemapark.ru", "busfor.ru", "yandex.travel",
+    "booking.com", "airbnb.com", "expedia.com", "hotels.com", "agoda.com", "trip.com", "skyscanner.net",
+    "kiwi.com", "trivago.com", "kayak.com", "momondo.com", "hostelworld.com", "vrbo.com",
+    "ticketmaster.com", "eventbrite.com", "stubhub.com", "seatgeek.com", "ryanair.com", "easyjet.com",
+    "wizzair.com", "lufthansa.com", "emirates.com", "turkishairlines.com", "qatarairways.com", "airfrance.com",
+    "klm.com", "britishairways.com", "flydubai.com", "airbaltic.com", "pegasusairlines.com", "flixbus.com",
+    "trainline.com", "omio.com", "uz.gov.ua", "tickets.ua"
+  ],
+  "gov": [
+    "gosuslugi.ru", "nalog.ru", "nalog.gov.ru", "mos.ru", "pfr.gov.ru", "sfr.gov.ru", "gibdd.ru", "fssp.gov.ru",
+    "rosreestr.ru", "rosreestr.gov.ru", "mvd.ru", "cbr.ru", "zakupki.gov.ru", "gov.spb.ru", "gu.spb.ru",
+    "diia.gov.ua", "egov.kz", "gov.by", "gov.uk", "irs.gov", "usa.gov", "ssa.gov", "login.gov", "uscis.gov",
+    "state.gov", "id.gov.ua"
+  ],
+  "medical": [
+    "invitro.ru", "gemotest.ru", "helix.ru", "kdl.ru", "cmd-online.ru", "citilab.ru", "sberhealth.ru",
+    "docdoc.ru", "prodoctorov.ru", "napopravku.ru", "medsi.ru", "emcmos.ru", "smclinic.ru", "doctu.ru",
+    "mediccity.ru", "klinikaexpert.ru", "k-vrachu.ru", "emias.info", "gorzdrav.org", "gorzdrav.spb.ru",
+    "apteka.ru", "eapteka.ru", "zdravcity.ru", "uteka.ru", "366.ru", "asna.ru", "rigla.ru", "planetazdorovo.ru",
+    "aptekamos.ru", "doc.ua", "helsi.me", "tabletki.ua", "doctolib.fr", "doctolib.de", "zocdoc.com",
+    "teladoc.com", "cvs.com", "walgreens.com", "23andme.com", "myheritage.com", "ancestry.com", "genotek.ru",
+    "fitbit.com", "myfitnesspal.com", "flo.health", "helloclue.com", "headspace.com", "betterhelp.com",
+    "calm.com", "yasno.live", "zigmund.online"
+  ],
+  "social": [
+    "facebook.com", "instagram.com", "vk.com", "ok.ru", "odnoklassniki.ru", "x.com", "linkedin.com",
+    "tiktok.com", "snapchat.com", "pinterest.com", "reddit.com", "tumblr.com", "telegram.org", "discord.com",
+    "discordapp.com", "whatsapp.com", "viber.com", "skype.com", "myspace.com", "livejournal.com", "quora.com",
+    "threads.net", "mastodon.social", "twitch.tv", "youtube.com", "fotostrana.ru", "moimir.org", "ask.fm",
+    "icq.com", "icq.net", "clubhouse.com", "bereal.com", "nextdoor.com", "meetup.com", "flickr.com",
+    "deviantart.com", "vine.co", "periscope.tv", "plurk.com", "gab.com", "truthsocial.com", "bsky.app",
+    "strava.com"
+  ],
+  "jobs": [
+    "hh.ru", "headhunter.ru", "hh.kz", "hh.uz", "rabota.by", "superjob.ru", "rabota.ru", "zarplata.ru",
+    "trudvsem.ru", "getmatch.ru", "geekjob.ru", "career.ru", "work.ua", "rabota.ua", "robota.ua", "djinni.co",
+    "indeed.com", "glassdoor.com", "monster.com", "ziprecruiter.com", "careerbuilder.com", "xing.com",
+    "hired.com", "angel.co", "wellfound.com", "dice.com", "stepstone.de", "reed.co.uk", "totaljobs.com",
+    "upwork.com", "fiverr.com", "freelancer.com", "fl.ru", "kwork.ru", "weblancer.net", "habr.career",
+    "toptal.com", "workable.com", "greenhouse.io", "lever.co", "smartrecruiters.com", "myworkday.com",
+    "huntflow.ru", "potok.io"
+  ],
+  "dating": [
+    "tinder.com", "gotinder.com", "badoo.com", "mamba.ru", "bumble.com", "hinge.co", "okcupid.com",
+    "match.com", "pof.com", "loveplanet.ru", "teamo.ru", "tabor.ru", "meetic.com", "zoosk.com", "happn.com",
+    "grindr.com", "lovoo.com", "eharmony.com", "twoo.com", "adultfriendfinder.com", "ashleymadison.com",
+    "pure.app", "dating.com", "feeld.co", "coffeemeetsbagel.com", "her.app", "anastasiadate.com",
+    "victoriyaclub.com", "elitesingles.com", "lovoo.net", "drugvokrug.ru", "topface.com"
+  ],
+  "news": [
+    "lenta.ru", "ria.ru", "rbc.ru", "kommersant.ru", "meduza.io", "tass.ru", "gazeta.ru", "iz.ru",
+    "vedomosti.ru", "forbes.ru", "novayagazeta.ru", "novayagazeta.eu", "thebell.io", "the-village.ru",
+    "fontanka.ru", "ngs.ru", "e1.ru", "mk.ru", "kp.ru", "aif.ru", "rg.ru", "interfax.ru", "bfm.ru",
+    "3dnews.ru", "ixbt.com", "vc.ru", "tjournal.ru", "dtf.ru", "secretmag.ru", "rb.ru", "cnews.ru",
+    "tadviser.ru", "roem.ru", "nplus1.ru", "naked-science.ru", "postnauka.ru", "arzamas.academy",
+    "forbes.com", "nytimes.com", "washingtonpost.com", "theguardian.com", "bbc.co.uk", "bbc.com", "cnn.com",
+    "reuters.com", "bloomberg.com", "wsj.com", "ft.com", "economist.com", "theatlantic.com", "newyorker.com",
+    "axios.com", "politico.com", "techcrunch.com", "theverge.com", "wired.com", "engadget.com",
+    "arstechnica.com", "producthunt.com", "hackernoon.com", "morningbrew.com", "theskimm.com",
+    "businessinsider.com", "huffpost.com", "vox.com", "npr.org", "dw.com", "euronews.com"
+  ],
+  "blog": [
+    "medium.com", "habr.com", "habrahabr.ru", "substack.com", "dzen.ru", "pikabu.ru", "wordpress.com",
+    "blogger.com", "blogspot.com", "ghost.io", "teletype.in", "dev.to", "hashnode.com", "tproger.ru",
+    "spark.ru", "diary.ru", "liveinternet.ru", "tilda.ws", "beehiiv.com", "buttondown.email", "mirror.xyz"
+  ]
+}

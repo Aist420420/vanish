@@ -1,0 +1,154 @@
+@import "@fontsource-variable/unbounded";
+@import "@fontsource/golos-text/400.css";
+@import "@fontsource/golos-text/500.css";
+@import "@fontsource/golos-text/600.css";
+@import "tailwindcss";
+
+@custom-variant light (&:where([data-theme="light"], [data-theme="light"] *));
+/* Невысокий экран (ноутбук, масштаб 125%): карточка уплотняется, чтобы колода помещалась без прокрутки. */
+@custom-variant short (@media (max-height: 820px));
+
+:root {
+  --bg: #0f1124;
+  --bg-2: #151834;
+  --bg-3: #1c2043;
+  --line: #2a2f58;
+  --text: #eceaf6;
+  --muted: #a3a1c0;
+  --faint: #6f6e93;
+  --mist: #b9a6ff;
+  --mist-strong: #d4c8ff;
+  --del: #ff6b81;
+  --keep: #4fd1a5;
+  --unsub: #f5b64a;
+  --later: #8c9bff;
+  --risk-high: #ff8a5c;
+  --risk-mid: #f2cd5c;
+  --risk-low: #8ea3bd;
+  --shadow: 0 24px 60px -24px rgb(0 0 0 / 0.7);
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --bg: #f2f1f9;
+  --bg-2: #ffffff;
+  --bg-3: #ffffff;
+  --line: #dcd9ec;
+  --text: #1a1b33;
+  --muted: #56547a;
+  --faint: #8a88a8;
+  --mist: #6a4de0;
+  --mist-strong: #4f33c4;
+  --del: #d2304c;
+  --keep: #11855f;
+  --unsub: #a86e00;
+  --later: #4556d4;
+  --risk-high: #c2410c;
+  --risk-mid: #9a6700;
+  --risk-low: #5b6b82;
+  --shadow: 0 24px 50px -28px rgb(40 30 90 / 0.35);
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-line: var(--line);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-mist: var(--mist);
+  --color-mist-strong: var(--mist-strong);
+  --color-del: var(--del);
+  --color-keep: var(--keep);
+  --color-unsub: var(--unsub);
+  --color-later: var(--later);
+  --color-risk-high: var(--risk-high);
+  --color-risk-mid: var(--risk-mid);
+  --color-risk-low: var(--risk-low);
+  --font-display: "Unbounded Variable", "Segoe UI", sans-serif;
+  --font-sans: "Golos Text", "Segoe UI", system-ui, sans-serif;
+  --shadow-card: var(--shadow);
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  /* Место под полосу прокрутки зарезервировано: при смене вкладок страница не «прыгает». */
+  scrollbar-gutter: stable;
+}
+
+body {
+  min-height: 100dvh;
+  /* Улетающая карточка и частицы не должны давать горизонтальную прокрутку. clip, а не hidden, — чтобы не сломать sticky-шапку. */
+  overflow-x: clip;
+}
+
+/* Фокус внутри открытого списка показывает подсветка пункта — рамка вокруг всего меню лишняя. */
+[role="listbox"]:focus-visible {
+  outline: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--mist);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--mist) 40%, transparent);
+}
+
+/* В слое base, чтобы утилиты Tailwind (hidden, sm:inline-flex) их перекрывали. */
+@layer base {
+  kbd {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 12px;
+    min-width: 1.7em;
+    padding: 1px 6px;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+    border-bottom-width: 2px;
+    background: var(--bg-2);
+    color: var(--text);
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    font: inherit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
